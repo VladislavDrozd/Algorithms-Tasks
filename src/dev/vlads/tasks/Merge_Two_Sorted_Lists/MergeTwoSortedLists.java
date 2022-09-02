@@ -1,4 +1,4 @@
-package dev.vlads.Merge_Two_Sorted_Lists;
+package dev.vlads.tasks.Merge_Two_Sorted_Lists;
 
 
 public class MergeTwoSortedLists {

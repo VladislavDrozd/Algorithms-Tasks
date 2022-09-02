@@ -1,4 +1,4 @@
-package dev.vlads.Maximum_Depth_of_Binary_Tree;
+package dev.vlads.tasks.Maximum_Depth_of_Binary_Tree;
 
 /*
 Given the root of a binary tree, return its maximum depth.
