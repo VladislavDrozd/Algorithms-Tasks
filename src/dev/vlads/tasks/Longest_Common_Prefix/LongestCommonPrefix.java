@@ -2,7 +2,7 @@ package dev.vlads.tasks.Longest_Common_Prefix;
 
 public class LongestCommonPrefix {
     public static void main(String[] args) {
-        //String[] input = {"flower","flow","flight"};
+        //String[] input = {"flower","flow","flight"}; // correct output fl
         String[] input = {"","b"};
         Solution solution = new Solution();
         String result = solution.longestCommonPrefix(input);
