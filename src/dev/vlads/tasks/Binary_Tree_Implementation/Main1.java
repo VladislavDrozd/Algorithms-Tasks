@@ -9,5 +9,6 @@ public class Main1 {
         BTI.addNode(6);
         BTI.addNode(8);
         System.out.println(BTI);
+        // 5,1,-2,7,6,8
     }
 }
