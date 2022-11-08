@@ -28,18 +28,18 @@ class Solution {
 
     // fast
     public int maxArea(int[] height) {
-        int maximumArea = 0;
-        int left = 0;
-        int right = height.length - 1;
-        while (left < right) {
-            int shorterLine = Math.min(height[left], height[right]);
-            maximumArea = Math.max(maximumArea, shorterLine * (right - left));
-            if (height[left] < height[right]) {
-                left++;
-            } else {
+        int max = 0;
+        for (int left = 0, right = height.length-1; left < right;) {
+            max = Math.max(
+                    Math.min(height[left], height[right]) * (right-left),
+                    max
+            );
+            if (height[left] > height[right]) {
                 right--;
+            } else {
+                left++;
             }
         }
-        return maximumArea;
+        return max;
     }
 }
